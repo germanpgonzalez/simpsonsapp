@@ -1,13 +1,14 @@
 import { Header } from './components/Header'
+import { ListaPersonajes } from './components/ListaPersonajes'
 import './App.css'
 
 function App() {
-  
+  const url = 'https://rickandmortyapi.com/api/character';
 
   return (
     <>
       <Header />
-      <h1 className='bg-red-600 text-white'>Hola Simpsons!</h1>
+      <ListaPersonajes url={url}/>
     </>
   )
 }
