@@ -3,7 +3,8 @@ import { ListaPersonajes } from './components/ListaPersonajes'
 import './App.css'
 
 function App() {
-  const url = 'https://rickandmortyapi.com/api/character';
+
+  const url = 'https://thesimpsonsapi.com/api/characters';
 
   return (
     <>
